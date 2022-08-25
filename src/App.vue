@@ -32,7 +32,7 @@ export default defineComponent({
     })
     let userVaue = reactive(obj)
     function upDataA(){
-          a.value+=1,
+          a.value+=1, 
           user.age++,
           userVaue.age+=1
           userVaue.list[4]='999'
